@@ -6,7 +6,18 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.1</Version>
+    <Company>3C</Company>
+    <ApplicationIcon>AccountBalanceViewer.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AccountBalanceViewer.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="AccountBalanceViewer.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />

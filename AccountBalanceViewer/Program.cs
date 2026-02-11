@@ -1,7 +1,7 @@
 /* * Developer: Cave Arnold
  * AI Assistant: Gemini
  * Date: January 17, 2026
- * Version: 1.0.0
+ * Version: 1.0.1
  * * Abstraction: 
  * This is a Windows Forms application designed to make updateing My Retirement Tracking Spreadsheet simple by aggregating by taxable type and including the normalization factor in a preformed calculation that can be pasted directly into one of the tax type columns shown by the application.
  * * Logic Flow:
@@ -12,6 +12,11 @@
  * 5. It takes the raw numeric value (e.g., 12345.67).
  * 6. Formats it as ={value}*$L$60 (e.g., =12345.67*$L$60). [Note: Thisis to be insert into My Retirement Withdrawal Tracker taxable columns with a hard coded reference to a normalization factor.]
  * 7. Copies it to the Windows Clipboard.
+ *
+ * Version History:
+ * - v1.0.0 (Jan 17, 2026): Initial Release. Basic update functionality.
+ * - v1.0.1 (Feb 11, 2026): Added Applicatioon Icon. * 
+ *
  */
 
 using Microsoft.Data.SqlClient;
