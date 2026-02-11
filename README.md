@@ -46,6 +46,7 @@ Ensure your database view matches the logic expected by the application:
 SELECT TaxType, SUM(TotalBalance) as Total 
 FROM [dbo].[vw_AccountBalancesByTaxTypeAndCategory] 
 GROUP BY TaxType
+```
 
 ## License
 
